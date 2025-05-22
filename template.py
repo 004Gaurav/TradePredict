@@ -4,21 +4,21 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-project_name="Predictive_credit_line_adjustment_system"
+project_name="Trade_prediction_system"
 
 list_of_files=[
-    f"src/Predictive_credit_line_adjustment_system/__init__.py",
-    f"src/Predictive_credit_line_adjustment_system/components/__init__.py",
-    f"src/Predictive_credit_line_adjustment_system/components/data_ingestion.py",
-    f"src/Predictive_credit_line_adjustment_system/components/data_transformation.py",
-    f"src/Predictive_credit_line_adjustment_system/components/model_trainer.py",
-    f"src/Predictive_credit_line_adjustment_system/components/model_monitering.py",
-    f"src/Predictive_credit_line_adjustment_system/pipelines/__init__.py",
-    f"src/Predictive_credit_line_adjustment_system/pipelines/training_pipeline.py",
-    f"src/Predictive_credit_line_adjustment_system/pipelines/prediction_pipeline.py",
-    f"src/Predictive_credit_line_adjustment_system/exception.py",
-    f"src/Predictive_credit_line_adjustment_system/logger.py",
-    f"src/Predictive_credit_line_adjustment_system/utils.py",
+    f"src/Trade_prediction_system/__init__.py",
+    f"src/Trade_prediction_system/components/__init__.py",
+    f"src/Trade_prediction_system/components/data_ingestion.py",
+    f"src/Trade_prediction_system/components/data_transformation.py",
+    f"src/Trade_prediction_system/components/model_trainer.py",
+    f"src/Trade_prediction_system/components/model_monitering.py",
+    f"src/Trade_prediction_system/pipelines/__init__.py",
+    f"src/Trade_prediction_system/pipelines/training_pipeline.py",
+    f"src/Trade_prediction_system/pipelines/prediction_pipeline.py",
+    f"src/Trade_prediction_system/exception.py",
+    f"src/Trade_prediction_system/logger.py",
+    f"src/Trade_prediction_system/utils.py",
     "app.py",
     "Dockerfile",
     "requirements.txt",
