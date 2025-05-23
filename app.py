@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.join(os.getcwd(), "src"))
+
+
 from Trade_prediction_system.logger import logging
 from Trade_prediction_system.exception import CustomException
 import sys
